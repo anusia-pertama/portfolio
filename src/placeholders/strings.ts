@@ -104,7 +104,7 @@ export const stringsMenu: StringsMenu = {
         description: "ilustrasi maen aer",
         category: "Fan Art",
         date: new Date("2025-08-07"),
-        image: "/assets/artworks/illustration/ilustration (1).png",
+        image: "/assets/artworks/illustration/illustration (1).png",
       },
       {
         title: "es batu",
