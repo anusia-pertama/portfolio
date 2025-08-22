@@ -2,7 +2,7 @@ import { StringsMenu } from "@/app/types";
 
 export const stringsMenu: StringsMenu = {
   website: {
-    title: "AdamnGif Studio",
+    title: "Anusia Studio",
     description: "Where Stories Created",
     email: "your@email.com",
   },
@@ -42,7 +42,7 @@ export const stringsMenu: StringsMenu = {
         "We craft worlds, characters, and moments with anime aesthetics. Illustration, motion, interactive experiences, and more.",
       buttons: [
         { text: "View Portfolio", href: "#portfolio" },
-        { text: "Make It Anime! (Try it Now!)", href: "#make-it-anime" },
+        { text: "See my Projects!!", href: "#projects" },
       ],
     },
   },
@@ -99,6 +99,22 @@ export const stringsMenu: StringsMenu = {
         // client: "Test Client",
         // client_account: "client_01",
       },
+      {
+        title: "Kobob",
+        description: "ilustrasi maen aer",
+        category: "Fan Art",
+        date: new Date("2025-08-07"),
+        image: "/assets/artworks/illustration/ilustration (1).png",
+      },
+      {
+        title: "es batu",
+        description: "ini karakter es",
+        category: "Commission",
+        date: new Date("2025-08-07"),
+        image: "/assets/artworks/illustration/illustration (2).png",
+        client: "Adamngif",
+        client_account: "x.com/adamngif",
+      },
     ],
   },
   projects: {
@@ -131,6 +147,16 @@ export const stringsMenu: StringsMenu = {
         progress: "concept art",
         image: "/assets/artworks/projects/The Final Gambit.png",
       },
+      {
+        title: "Aing Maung",
+        status: "undisclosed", // must match your ProjectStatus type
+        category: "Movie", // must match your ProjectCategory type
+        summary: "ceritanya macan sunda",
+        release_date_option: "undisclosed",
+        release_date: new Date("2025-08-10"),
+        progress: "ini karangan belaka",
+        image: "/assets/artworks/projects/image25.png",
+      },
     ],
   },
   commission: {
@@ -155,12 +181,6 @@ export const stringsMenu: StringsMenu = {
         price: "$30+",
         description: "No revision, one character, one Anime Scene",
         sample: "/assets/artworks/illustration/day.png",
-      },
-      {
-        title: "Animation",
-        price: "$300+",
-        description: "4 revisions, one Anime Scene",
-        sample: "/assets/artworks/illustration/Sarga Competition.png",
       },
       {
         title: "Sketch",
